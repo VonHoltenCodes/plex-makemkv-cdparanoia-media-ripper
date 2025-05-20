@@ -1,0 +1,37 @@
+# GitHub Push Instructions
+
+Here's how to push your dvd-bluray-ripper repository to GitHub:
+
+## Step 1: Create a repository on GitHub
+1. Login to GitHub at https://github.com
+2. Click the "+" icon in the top right and select "New repository"
+3. Repository name: dvd-bluray-ripper
+4. Description: Automated DVD and Blu-ray ripping scripts for Plex media server
+5. Select "Public" visibility
+6. DON'T initialize with README, .gitignore, or license (we already have them)
+7. Click "Create repository"
+
+## Step 2: Push your local repository
+
+### Using SSH (if you have SSH keys set up):
+```bash
+cd /home/traxx/dvd-bluray-ripper-github
+git remote set-url origin git@github.com:YourGitHubUsername/dvd-bluray-ripper.git
+git push -u origin main
+```
+
+### Using HTTPS (alternative):
+```bash
+cd /home/traxx/dvd-bluray-ripper-github
+git remote set-url origin https://github.com/YourGitHubUsername/dvd-bluray-ripper.git
+git push -u origin main
+```
+
+## Checking repository status
+After pushing, your repository will be available at:
+https://github.com/YourGitHubUsername/dvd-bluray-ripper
+
+## Security Notes
+- This version has had all sensitive data (Plex tokens, etc.) replaced with placeholders
+- Your original files remain untouched in your home directory
+- Only push this sanitized version to GitHub
