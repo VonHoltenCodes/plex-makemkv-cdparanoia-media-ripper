@@ -1,10 +1,11 @@
-# 💿 DVD & Blu-ray Ripper for Plex
+# 💿 Plex Media Ripper (MakeMKV + CDParanoia)
 
 ![License](https://img.shields.io/badge/license-MIT%20with%20Attribution-blue)
 ![Platform](https://img.shields.io/badge/platform-Linux-lightgrey)
 ![MakeMKV](https://img.shields.io/badge/requires-MakeMKV-green)
+![CDParanoia](https://img.shields.io/badge/requires-CDParanoia-orange)
 
-A comprehensive solution for automating DVD and Blu-ray disc ripping directly to your Plex media server. This collection of shell scripts handles everything from disc detection to library organization.
+A comprehensive solution for automating DVD, Blu-ray, and Audio CD ripping directly to your Plex media server. This collection of shell scripts uses MakeMKV for video discs and CDParanoia for audio CDs, handling everything from disc detection to library organization.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/wiki/plexinc/pms-docker/img/plex-logo.png" alt="Plex" width="200"/>
@@ -41,8 +42,8 @@ A comprehensive solution for automating DVD and Blu-ray disc ripping directly to
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/yourusername/dvd-bluray-ripper.git
-   cd dvd-bluray-ripper
+   git clone https://github.com/yourusername/plex-makemkv-cdparanoia-media-ripper.git
+   cd plex-makemkv-cdparanoia-media-ripper
    ```
 
 2. **Make scripts executable:**
@@ -187,6 +188,6 @@ Enhanced with [Claude AI](https://www.anthropic.com/claude)
 ---
 
 <p align="center">
-  <a href="https://github.com/yourusername/dvd-bluray-ripper/issues">Report Bug</a> •
-  <a href="https://github.com/yourusername/dvd-bluray-ripper/issues">Request Feature</a>
+  <a href="https://github.com/yourusername/plex-makemkv-cdparanoia-media-ripper/issues">Report Bug</a> •
+  <a href="https://github.com/yourusername/plex-makemkv-cdparanoia-media-ripper/issues">Request Feature</a>
 </p>
